@@ -221,7 +221,7 @@ body::before{
 
       <div class="sessions">
 
-        <div class="group-label">Сеанс — 4 места за столом</div>
+        <div class="group-label">Сеанс — 23 мая</div>
 
         <div class="s-card" id="card-1" onclick="toggleCart(1)">
           <div class="s-inner">
@@ -238,14 +238,16 @@ body::before{
         <div class="s-card" id="card-2" onclick="toggleCart(2)">
           <div class="s-inner">
             <div class="s-num-col"><div class="s-num">Ⅱ</div><div class="s-glyph">◉</div></div>
-            <div class="s-body"><div class="s-date">23 мая</div><div class="s-type">Стол · 4 человека</div></div>
+            <div class="s-body"><div class="s-date">23 мая</div><div class="s-type">Стол · 2 человека</div></div>
             <div class="s-right">
-              <div class="s-price">7 500 ₽<small>за билет</small></div>
-              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>4</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
+              <div class="s-price">11 250 ₽<small>за билет</small></div>
+              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>2</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
               <button class="pick-btn" id="pb-2">Выбрать</button>
             </div>
           </div>
         </div>
+
+        <div class="group-label" style="margin-top:6px">Сеанс — 30 мая</div>
 
         <div class="s-card" id="card-3" onclick="toggleCart(3)">
           <div class="s-inner">
@@ -262,24 +264,24 @@ body::before{
         <div class="s-card" id="card-4" onclick="toggleCart(4)">
           <div class="s-inner">
             <div class="s-num-col"><div class="s-num">Ⅳ</div><div class="s-glyph">✶</div></div>
-            <div class="s-body"><div class="s-date">30 мая</div><div class="s-type">Стол · 4 человека</div></div>
+            <div class="s-body"><div class="s-date">30 мая</div><div class="s-type">Стол · 2 человека</div></div>
             <div class="s-right">
-              <div class="s-price">7 500 ₽<small>за билет</small></div>
-              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>4</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
+              <div class="s-price">11 250 ₽<small>за билет</small></div>
+              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>2</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
               <button class="pick-btn" id="pb-4">Выбрать</button>
             </div>
           </div>
         </div>
 
-        <div class="group-label" style="margin-top:6px">Новое шоу — 2 места за столом</div>
+        <div class="group-label" style="margin-top:6px">Новое шоу — 6 июня</div>
 
         <div class="s-card" id="card-5" onclick="toggleCart(5)">
           <div class="s-inner">
             <div class="s-num-col"><div class="s-num">Ⅴ</div><div class="s-glyph">★</div></div>
-            <div class="s-body"><div class="s-date">6 июня</div><div class="s-type">Стол · 2 человека</div></div>
+            <div class="s-body"><div class="s-date">6 июня</div><div class="s-type">Стол · 4 человека</div></div>
             <div class="s-right">
-              <div class="s-price">11 250 ₽<small>за билет</small></div>
-              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>2</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
+              <div class="s-price">7 500 ₽<small>за билет</small></div>
+              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>4</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
               <button class="pick-btn" id="pb-5">Выбрать</button>
             </div>
           </div>
@@ -297,13 +299,15 @@ body::before{
           </div>
         </div>
 
+        <div class="group-label" style="margin-top:6px">Новое шоу — 13 июня</div>
+
         <div class="s-card" id="card-7" onclick="toggleCart(7)">
           <div class="s-inner">
             <div class="s-num-col"><div class="s-num">Ⅶ</div><div class="s-glyph">◉</div></div>
-            <div class="s-body"><div class="s-date">13 июня</div><div class="s-type">Стол · 2 человека</div></div>
+            <div class="s-body"><div class="s-date">13 июня</div><div class="s-type">Стол · 4 человека</div></div>
             <div class="s-right">
-              <div class="s-price">11 250 ₽<small>за билет</small></div>
-              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>2</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
+              <div class="s-price">7 500 ₽<small>за билет</small></div>
+              <div class="s-slots"><div class="slots-lbl"><span>Мест</span><span>4</span></div><div class="slots-bar"><div class="slots-fill ok" style="width:100%"></div></div></div>
               <button class="pick-btn" id="pb-7">Выбрать</button>
             </div>
           </div>
@@ -406,14 +410,14 @@ body::before{
 
 /* data */
 const S={
-  1:{label:'Ⅰ', date:'23 мая', type:'Сеанс',    seats:4, price:7500},
-  2:{label:'Ⅱ', date:'23 мая', type:'Сеанс',    seats:4, price:7500},
-  3:{label:'Ⅲ', date:'30 мая', type:'Сеанс',    seats:4, price:7500},
-  4:{label:'Ⅳ', date:'30 мая', type:'Сеанс',    seats:4, price:7500},
-  5:{label:'Ⅴ', date:'6 июня', type:'Новое шоу', seats:2, price:11250},
-  6:{label:'Ⅵ', date:'6 июня', type:'Новое шоу', seats:2, price:11250},
-  7:{label:'Ⅶ', date:'13 июня',type:'Новое шоу', seats:2, price:11250},
-  8:{label:'Ⅷ', date:'13 июня',type:'Новое шоу', seats:2, price:11250},
+  1:{label:'Ⅰ', date:'23 мая',  type:'Сеанс',    seats:4, price:7500},
+  2:{label:'Ⅱ', date:'23 мая',  type:'Сеанс',    seats:2, price:11250},
+  3:{label:'Ⅲ', date:'30 мая',  type:'Сеанс',    seats:4, price:7500},
+  4:{label:'Ⅳ', date:'30 мая',  type:'Сеанс',    seats:2, price:11250},
+  5:{label:'Ⅴ', date:'6 июня',  type:'Новое шоу', seats:4, price:7500},
+  6:{label:'Ⅵ', date:'6 июня',  type:'Новое шоу', seats:2, price:11250},
+  7:{label:'Ⅶ', date:'13 июня', type:'Новое шоу', seats:4, price:7500},
+  8:{label:'Ⅷ', date:'13 июня', type:'Новое шоу', seats:2, price:11250},
 };
 
 let cart={};
